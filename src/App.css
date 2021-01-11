@@ -1,3 +1,7 @@
+*{
+  font-family: Helvetica, Arial, sans-serif;
+}
+
 .App {
   text-align: center;
 }
@@ -11,10 +15,15 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+
+  .text-left{
+    text-align: center !important;
+    }
+
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #f0f2f5;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -36,3 +45,92 @@
     transform: rotate(360deg);
   }
 }
+
+.btn-link{
+  font-size: 14px !important;
+}
+
+.pSmall{
+  font-size: 12px !important;
+}
+
+.tSmall{
+  color: #000000 !important;
+  font-weight: bolder !important;
+  font-size: 12px !important;
+}
+
+.tSmall-2{
+  font-size: 12px !important;
+  color: rgba(0,0,0,0.59)!important;
+}
+
+.tMute{
+  font-size: 12px !important;
+  color: rgba(0,0,0,0.59)!important;
+}
+
+.bRadius{
+  border-radius: 10px;
+}
+
+.fText{
+    font-size: 24px !important;
+    line-height: 32px !important;
+    padding: 0 0 20px;
+
+}
+
+.aItems{
+  align-items: center !important;
+  display: flex;
+  }
+
+  input[type="text"], input[type="password"]{
+    padding: 14px 16px !important;
+    font-size: 17px !important;
+  }
+
+  .image{
+    padding: 52px 0 16px !important;
+  }
+
+  .plus{
+    cursor: pointer;
+    color: #8a8d91;
+    background-color: #f5f6f7;
+    border: 1px solid #8a8d91;
+    font-weight: bolder !important;
+    text-decoration: none !important;
+    white-space: nowrap;
+    font-size: 14px !important;
+    padding: 0 8px;
+    border-radius: 2px !important;
+  }
+
+  .plus:hover{
+    background-color:#bdb3c3 !important;
+  }
+
+  /* popup */
+
+  element.style {
+    z-index: 9909;
+    pointer-events: auto;
+    top: 40% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    
+}
+[role=tooltip].popup-content {
+    width: 35% !important;
+    }
+
+  .bg-popup{
+      /* background-color: rgba(255, 255, 255, .8) !important; */
+      background-color: red;
+    }
+
+
+  
+
